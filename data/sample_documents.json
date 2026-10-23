@@ -1,0 +1,26 @@
+[
+  {
+    "id": "onyx-indexed-search-demo-telemetry",
+    "semantic_identifier": "Synthetic telemetry retention policy",
+    "metadata": {"project": "onyx-indexed-search", "kind": "synthetic"},
+    "sections": [
+      {"type": "text", "link": "https://example.com/demo/telemetry", "text": "Telemetry retention is 30 days. After retention expiry, the daily cleanup job removes expired telemetry records. Aggregated monthly counts remain available for 12 months. onyxindexedsearchfixture"}
+    ]
+  },
+  {
+    "id": "onyx-indexed-search-demo-escalation",
+    "semantic_identifier": "Synthetic incident escalation guide",
+    "metadata": {"project": "onyx-indexed-search", "kind": "synthetic"},
+    "sections": [
+      {"type": "text", "link": "https://example.com/demo/escalation", "text": "A priority one incident pages the on-call engineer immediately. The incident coordinator records the timeline and posts a status update every 15 minutes. onyxindexedsearchfixture"}
+    ]
+  },
+  {
+    "id": "onyx-indexed-search-demo-indexing",
+    "semantic_identifier": "Synthetic document indexing guide",
+    "metadata": {"project": "onyx-indexed-search", "kind": "synthetic"},
+    "sections": [
+      {"type": "text", "link": "https://example.com/demo/indexing", "text": "An indexed knowledge service ingests documents before queries arrive. Background synchronization refreshes the index, while retrieval applies metadata and access filters. Poll search visibility after ingestion rather than assuming a database row proves retrieval readiness. onyxindexedsearchfixture"}
+    ]
+  }
+]
